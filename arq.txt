@@ -1,0 +1,7 @@
+echo "# git_01" >> README.md (Add arquivo novo)
+git init (Inicializar repositório)
+git add nomeDoArquivo (Adicionar o arquivo no git)
+git commit -m "primeiro commit" (Enviar o arquivo)
+git branch -M main (Criação de branch, onde o código correto do projeto estará depositado)
+git remote add origin https://github.com/Douglas-git/git_01.git (Add a origem, sincronização)
+ git push -u origin main (Enviar pra master da origem)
